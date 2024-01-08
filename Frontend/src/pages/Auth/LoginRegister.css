@@ -1,0 +1,32 @@
+.auth-text:hover {
+  text-decoration: underline;
+  color: #ac0b41;
+  cursor: pointer;
+}
+
+.boxBackground {
+  background-image: url("../../pages/image/login-register-bg.jpg");
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.verstoLogo{
+  margin-bottom: 50px;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.auth-animation {
+  animation: slideIn 0.5s ease-out;
+}

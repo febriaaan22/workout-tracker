@@ -1,0 +1,39 @@
+.activityBox {
+  display: flex;
+  flex-direction: row;
+}
+.activityDescription{
+ margin-left: 40px;
+}
+.activityPadding{
+  padding: 40px 180px;
+}
+
+/* Media query for screens with a width less than 1150 pixels */
+@media (max-width: 1150px) {
+  .activityBox {
+    width: 100%;
+    flex-direction: column;
+  }
+  .activityDescription{
+    margin-left: 0;
+   }
+   .activityPadding{
+    padding: 20px 120px;
+  }
+}
+
+@media (max-width: 600px) {
+  .activityBox {
+    /* Your specific styles for screens less than 600 pixels here */
+    width: 100%;
+    flex-direction: column;
+  }
+  .activityDescription{
+    margin-left: 0;
+   }
+   .activityPadding{
+    padding: 0;
+  }
+  
+}

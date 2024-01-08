@@ -1,0 +1,38 @@
+/* Add this to your CSS file or style section */
+.flexBox, .flexBox2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Box1 {
+  flex: 1;
+  max-width: 50%; 
+}
+
+.Box2 {
+  flex: 1;
+  max-width: 45%; 
+}
+
+.containerItem {
+  margin-bottom: 100px;
+}
+
+.imageItem {
+  width: 100%;
+}
+
+@media (max-width: 1250px) {
+  .flexBox , .flexBox2{
+    flex-direction: column; 
+  }
+  .Box1,.Box2{
+    flex: 1;
+    max-width: none;
+  }
+  .flexBox2{
+    flex-direction: column-reverse;
+  }
+}

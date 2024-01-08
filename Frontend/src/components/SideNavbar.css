@@ -1,0 +1,20 @@
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #424242;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  height: 75px;
+  padding: 0 20px;
+}
+
+.navbar-item:hover {
+  background-color: #00bfa5 !important;
+}
+
+.navbar-item-logout:hover {
+  background-color: #d50000 !important;
+}

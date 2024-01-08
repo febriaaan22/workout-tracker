@@ -1,0 +1,5 @@
+export {default as RunningDashboard} from './Running/RunningDashboard/index'
+export {default as CyclingDashboard} from './Cycling/CyclingDashboard/index'
+export {default as SwimmingDashboard} from './Swimming/SwimmingDashboard/index'
+export {default as BmiCalculator} from './BMI/index'
+export {default as Tips} from './Tips/index'
